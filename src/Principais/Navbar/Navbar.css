@@ -143,6 +143,13 @@ form{
     border-radius: 6px;
 }
 
+.N{
+    background-color: transparent;
+    height: 35px;
+    width: 25px;
+    display: none;
+}
+
 @media screen and (min-width: 800px) and (max-width: 900px){  /* tablets */
     .toda_navbar{
         display: flex;
@@ -441,14 +448,20 @@ form{
         margin-top: 15px;
         margin-right: -5px;
         padding-left: 2px;
+        display: none;
+    }
+
+    .N{
+        display: block;
+        padding: 10px;
     }
 
     .input_search{
         height: 25px;
-        width: 95px;
-        margin-top: 2px;
+        width: 110px;
+        margin-top: 5px;
         border-radius: 5px;
-       
+       margin-left: 6px;
     }
 
     .navegacoes{
@@ -456,7 +469,7 @@ form{
     }
 
     .navegacoes p{
-        font-size: 10.6px;
+        font-size: 13.6px;
         margin: 8px;
         margin-top: 14px;
         /* margin-left: -10px; */
