@@ -4,7 +4,6 @@ import TudoFavorito from "../../Favorites/TudoFavorito";
 
 const apiKey = import.meta.env.VITE_API_KEY;
 const imageUrl = import.meta.env.VITE_IMG
-// const moviesURL = import.meta.env.VITE_API;
 
 const FilmesAção = () => {
 

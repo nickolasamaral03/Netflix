@@ -13,7 +13,8 @@ const TudoFavorito = (props) => {
     } else {
         setFavoritos(favorito.filter((fav) => fav.id !== lancamento.id)); 
     }
-}; 
+  }; 
+  
   return (
     <>
       <div className="tudo_dos_favoritos">

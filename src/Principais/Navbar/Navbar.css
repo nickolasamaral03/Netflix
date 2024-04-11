@@ -161,7 +161,6 @@ form{
 
     .netflix{
         font-size: 25px;
-        /* margin-right: -26px; */
     }
 
     .input_search{
@@ -472,7 +471,6 @@ form{
         font-size: 13.6px;
         margin: 8px;
         margin-top: 14px;
-        /* margin-left: -10px; */
     }
 
     .infantil{
@@ -502,7 +500,4 @@ form{
     }
 }
 
-@media screen and (max-width: 320px) {  /* relógio */
-    
-}
 

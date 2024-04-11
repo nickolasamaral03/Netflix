@@ -8,5 +8,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 
-// Agora é buscar deixar mais dinamico, como faremos isso? Não sei não
 )
