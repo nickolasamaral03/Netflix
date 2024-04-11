@@ -1,0 +1,47 @@
+.movieComedy{
+    height: 210px;
+    margin: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.movieComedy:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.comediafilmes{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-bottom: 20px;
+}
+
+.comediafilmes::-webkit-scrollbar {
+    height: 4px; 
+}
+
+.comediafilmes::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 6px; 
+  }
+
+.comediatitle{
+    color: white;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 23px;
+    margin-bottom: -5px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .movieComedy{
+        height: 150px;
+        width: 150px;
+    }
+
+    .comediatitle{
+        font-size: 15px;
+    }
+}

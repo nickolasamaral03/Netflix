@@ -1,0 +1,58 @@
+.tvPopulares{
+    height: 210px;
+    margin: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.tvPopulares:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.populares{
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 22px;
+}
+
+.tudoSerie{
+    margin-top: -75px;
+}
+
+.pop_title{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 22px;
+    margin-bottom: -12px;
+}
+
+.popTv{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.popTv::-webkit-scrollbar {
+    height: 4px; 
+}
+
+.popTv::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 6px; 
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 600px){
+    .tvPopulares{
+        height: 150px;
+        width: 150px;
+    }
+
+    .pop_title{
+        font-size: 15px;
+    }
+}

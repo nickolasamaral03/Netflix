@@ -1,0 +1,47 @@
+.popularesNaNetflix{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 22px;
+}
+
+.todasAsMelhores{
+    margin-top: 0px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-bottom: 20px;
+}
+
+.todasAsMelhores::-webkit-scrollbar {
+    height: 4px; 
+}
+
+.todasAsMelhores::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 6px; 
+  }
+
+.tvMelhores{
+    height: 210px;
+    margin: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.tvMelhores:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .tvMelhores{
+        height: 150px;
+        width: 150px;
+    }
+
+    .popularesNaNetflix{
+        font-size: 15px;
+    }
+}

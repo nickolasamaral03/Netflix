@@ -1,0 +1,58 @@
+.lista_title{
+    color: white;
+    margin-top: 100px;
+    margin-left: 35px;
+    font-size: 25px;
+    font-weight: 100;
+    font-weight: 800;
+}
+
+.cada_favorito{
+    height: 130px;
+    width: 120px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cada_favorito:hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.todos_favoritos{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-left: 30px;
+}
+
+.todos_favoritos::-webkit-scrollbar {
+    height: 4px; 
+}
+
+.todos_favoritos::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 6px; 
+  }
+
+  .tudo_dos_favoritos{
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .escolhidos{
+    margin-left: 49px;
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 600px){
+    .cada_favorito{
+        height: 100px;
+        width: 80px;
+    }
+
+    .escolhidos{
+        font-size: 15px;
+    }
+  }

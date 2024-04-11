@@ -1,0 +1,53 @@
+.acaoPart{
+    margin-top: -40px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.acao_title{
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+
+.acaoPart::-webkit-scrollbar {
+    height: 4px; 
+}
+
+.acaoPart::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 6px; 
+  }
+
+.movieAction{
+    height: 210px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.movieAction:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.tudoMovie{
+    margin-top: -80px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .movieAction{
+        height: 150px;
+        width: 150px;
+    }
+
+    .acao_title{
+        font-size: 15px;
+    }
+}
+

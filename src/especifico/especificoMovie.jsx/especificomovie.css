@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oxygen&family=Poppins&family=Roboto:wght@400;500&display=swap');
+
+.vingadores_post{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: -110px;
+    height: 400px;
+    margin-bottom: 75px;
+}
+
+.title_Vinga{
+    font-size: 50px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    color: rgb(255, 0, 0);
+    font-family: cursive;
+}
+
+.infoVigadores{
+    margin-top: -330px;
+    margin-bottom: 120px;
+    margin-left: 25px;
+    width: 300px;
+}
+
+.descricao{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.fle{
+    display: flex;
+    margin-top: -20px;
+    /* margin-top: 50px; */
+}
+
+.assistir{
+    color: black;
+    background-color: white ;
+    margin: 12px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;   
+}
+
+.assistir:hover{
+    background-color: #C2BFC0;
+    transition: 0.5s;
+}
+
+.maisInfo{
+    color: white;
+    background-color: rgba(85, 83, 83, 0.63);
+    margin: 12px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.maisInfo:hover{
+    background-color: rgba(85, 83, 83, 0.432);
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .vingadores_post{
+        width: 86%;
+        height: 400px;
+        border-radius: 5%;
+        margin-top: 20px;
+        border: 0.8px solid white;
+    }
+
+    .descricao_vingadores{
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: -90px;
+        padding-bottom: 100px;
+        background-image: linear-gradient(to bottom, rgb(51, 128, 190), rgb(33, 39, 71) ,rgb(4, 4, 39));
+        height: 340px;
+        margin-bottom: 100px;
+    }
+
+    .title_Vinga{
+        font-size: 45px;
+    }
+
+    .infoVigadores{
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: -290px;
+    }
+}

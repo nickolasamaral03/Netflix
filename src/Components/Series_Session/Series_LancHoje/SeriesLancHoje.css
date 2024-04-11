@@ -1,0 +1,48 @@
+.Irrelevante_title{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 22px;
+}
+
+.todas_irrelevantes{
+    margin-top: 0px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-bottom: 20px;
+}
+
+.todas_irrelevantes::-webkit-scrollbar {
+    height: 4px; 
+}
+
+.todas_irrelevantes::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 6px; 
+  }
+
+
+.tvIrrelevantes{
+    height: 210px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.tvIrrelevantes:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .tvIrrelevantes{
+        height: 150px;
+        width: 150px;
+    }
+
+    .Irrelevante_title{
+        font-size: 15px;
+    }
+}

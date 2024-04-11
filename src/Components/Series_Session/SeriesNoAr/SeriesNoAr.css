@@ -1,0 +1,47 @@
+.lancamento{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 22px;
+}
+
+.todasAsSeriesAr{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.todasAsSeriesAr::-webkit-scrollbar {
+    height: 4px; 
+}
+
+.todasAsSeriesAr::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 6px; 
+  }
+
+.tvNoArAgora{
+    height: 210px;
+    margin: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.tvNoArAgora:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .tvNoArAgora{
+        height: 150px;
+        width: 150px;
+    }
+
+    .lancamento{
+        font-size: 15px;
+    }
+}

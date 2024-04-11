@@ -1,0 +1,55 @@
+.Populares_title{
+    color: white;
+    font-size: 20px;
+    margin-bottom: -20px;
+    margin: 10px;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+
+.todos_populares{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.todos_populares::-webkit-scrollbar{
+    height: 4px;
+}
+
+.todos_populares::-webkit-scrollbar-thumb{
+    background-color: #888;
+    border-radius: 6px;
+}
+
+.one_popular{
+    height: 190px;
+    width: 140px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.one_popular:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.minha_lista_populares{
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .one_popular{
+        height: 150px;
+        width: 150px;
+    }
+    .Populares_title{
+        font-size: 15px;
+    }
+}

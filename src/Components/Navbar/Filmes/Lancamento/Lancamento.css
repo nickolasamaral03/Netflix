@@ -1,0 +1,48 @@
+.todos_lancamentos{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-top: 20px;
+}
+
+.todos_lancamentos::-webkit-scrollbar {
+    height: 4px; 
+}
+
+.todos_lancamentos::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 6px; 
+  }
+
+.lancamento_title{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 25px;
+    margin-left: 22px;
+    margin-bottom: -28px;
+}
+
+.oneLancamento{
+    height: 190px;
+    width: 140px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.oneLancamento:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .oneLancamento{
+        height: 150px;
+        width: 150px;
+    }
+
+    .lancamento_title{
+        font-size: 15px;
+    }
+}

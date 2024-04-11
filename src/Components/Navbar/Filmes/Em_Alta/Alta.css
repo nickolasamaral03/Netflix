@@ -1,0 +1,55 @@
+.em_alta{
+    margin-bottom: -7px;
+    font-size: 20px;
+    margin-left:20px;
+    margin-top: -10px;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 25px;
+    margin-left: 22px;
+    margin-bottom: -10px;
+}
+
+.posters{
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+.posters:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.tudo_alta{
+    margin-top: -60px;
+}
+
+.principais_movies{
+    overflow-x: auto;
+}
+
+.principais_movies::-webkit-scrollbar{
+    height:4px
+}
+
+.principais_movies::-webkit-scrollbar-thumb{
+    background-color: #888;
+    border-radius: 6px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .posters{
+        height: 150px;
+        width: 150px;
+    }
+
+    h2{
+        font-size: 17px;
+    }
+}

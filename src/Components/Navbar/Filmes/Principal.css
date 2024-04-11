@@ -1,0 +1,23 @@
+.tudo_principal{
+    background-color: #141414;
+    height: 573px;
+}
+
+.em_alta{
+    font-size: 25px;
+    margin:15px;
+    color: white;
+}
+
+.principais_movies{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.posters{
+    height: 210px;
+    margin: 20px;
+    width: 250px;
+}
