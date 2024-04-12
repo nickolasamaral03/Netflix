@@ -8,6 +8,7 @@
     height: 450px;
     margin-top: -110px;
     margin-bottom: -5px;
+    object-fit: cover;
 }
 
 .title_breaking{
@@ -75,6 +76,7 @@
         border-radius: 5%;
         margin-top: 20px;
         border: 0.8px solid white;
+        object-fit: cover;
     }
 
     .tudo_breaking{
