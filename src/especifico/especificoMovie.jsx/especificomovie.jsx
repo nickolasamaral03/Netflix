@@ -9,7 +9,7 @@ const Especificomovie = () => {
         <div className="infoVigadores">
         <h2 className='title_Vinga'>Vingadores: Ultimato</h2>
                 
-        <div className="fle">
+        <div className="fle4">
         <div className='assistir'>Assistir</div>
         <div className="maisInfo">Mais Informações</div>
         </div>

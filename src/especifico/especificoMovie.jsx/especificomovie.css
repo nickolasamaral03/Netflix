@@ -31,7 +31,7 @@
     font-size: 17px;
 }
 
-.fle{
+.fle4{
     display: flex;
     margin-top: -20px;
 }
@@ -101,7 +101,7 @@
         margin-top: -290px;
     }
 
-    .fle{
-        margin-right: 40px;
+    .fle4{
+        margin-right: 60px;
     }
 }
