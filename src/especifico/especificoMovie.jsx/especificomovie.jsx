@@ -1,10 +1,11 @@
 import './especificomovie.css'
+import PosterMovie from './poster_movie.png'
 
 const Especificomovie = () => {
   return (
     <div>
       <div className="descricao_vingadores">
-        <img src="https://tm.ibxk.com.br/ms/images/highlights/000/049/597/46788.jpg?ims=1200x675" alt="" className="vingadores_post"/>
+        <img src={PosterMovie} alt="" className="vingadores_post"/>
         <div className="infoVigadores">
         <h2 className='title_Vinga'>Vingadores: Ultimato</h2>
                 

@@ -32,7 +32,7 @@ useEffect(() => {
         Resultados para: <span className="query_text">{query}</span>
     </h2>
 <div className="filmes_pesquisados">
-    {movies.length === 0 && <p>Carregando...</p>}
+    {movies.length === 0 && <p className="carregando">Certifique-se que escreveu corretamente</p>}
     {movies && movies.map((movie) => 
             <img 
             key={movie.id} 

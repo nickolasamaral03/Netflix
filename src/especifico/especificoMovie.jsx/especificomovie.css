@@ -14,7 +14,7 @@
     font-size: 50px;
     margin-left: -10px;
     margin-bottom: 20px;
-    color: rgb(255, 0, 0);
+    color: rgb(252, 164, 0);
     font-family: cursive;
 }
 
@@ -34,7 +34,6 @@
 .fle{
     display: flex;
     margin-top: -20px;
-    /* margin-top: 50px; */
 }
 
 .assistir{
