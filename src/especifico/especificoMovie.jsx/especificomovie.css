@@ -6,13 +6,13 @@
     width: 100%;
     margin-top: -110px;
     height: 400px;
-    margin-bottom: 75px;
+    margin-bottom: 95px;
     object-fit: cover;
 }
 
 .title_Vinga{
     font-size: 48px;
-    margin-left: -10px;
+    margin-left: 0px;
     margin-bottom: 20px;
     color: rgb(252, 248, 0);
     font-family: cursive;
@@ -90,7 +90,7 @@
 
     .title_Vinga{
         font-size: 45px;
-        margin-left: 20px;
+        margin-right: 70px;
     }
 
     .infoVigadores{
